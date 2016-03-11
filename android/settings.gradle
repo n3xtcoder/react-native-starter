@@ -1,0 +1,3 @@
+rootProject.name = 'N3xtcoderArya'
+
+include ':app'
