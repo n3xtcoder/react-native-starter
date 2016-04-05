@@ -53,16 +53,40 @@ exec bash
 ```
 Follow these instructions to configure the Android sdk: https://facebook.github.io/react-native/docs/android-setup.html
 
+## Running on a real device
+Debugging your Android builds on a real device is a much better experience than through the emulator.
+
+Enable Developer options on your Android phone if you don't have the already. Go to your Settings app, navigate to `About phone` and tap seven times on `Build number`.
+
+Enable USB debugging in the Developer options of your Settings app. 
+
+Plug in your device and run `react-native run-android`. Then run `adb reverse tcp:8081 tcp:8081` to connect to your development server.
+
+[More info](http://facebook.github.io/react-native/docs/running-on-device-android.html)
+
+
 ### iOS
 
 Open `ios/N3xtcoderArya.xcodeproj` and hit run in Xcode.
 Open the `index.ios.js` in your editor of choice
 
 
+## Running on a real device
+
+You have 2 options:
+* Use the development server: Open `ios/N3xtcoderArya/AppDelegate.m` in Xcode and change `jsLocation` to your current IP address.
+* Use an offline bundle: Open `ios/N3xtcoderArya/AppDelegate.m` in Xcode and comment out the `jsLocation` in Option 1 and enable Option 2 (ie. remove the comment).
+
+Then select your device in Xcode's build targets and hit run. 
+
+[More info](http://facebook.github.io/react-native/docs/running-on-device-ios.html)
 
 
 ## Notes
 
+For iOS 9.3 devices you'll need Xcode 7.3.
+
 Android emulator can be tricky:
 ```
 android create avd -n myavd -t 1 --abi default/x86_64
+```
