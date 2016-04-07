@@ -74,7 +74,7 @@ Open the `index.ios.js` in your editor of choice
 ## Running on a real device
 
 You have 2 options:
-* Use the development server: Open `ios/N3xtcoderArya/AppDelegate.m` in Xcode and change `jsLocation` to your current IP address.
+* Use the development server: Open `ios/N3xtcoderArya/AppDelegate.m` in Xcode and change `jsLocation` to your current IP address (output of `ipconfig getifaddr en1`).
 * Use an offline bundle: Open `ios/N3xtcoderArya/AppDelegate.m` in Xcode and comment out the `jsLocation` in Option 1 and enable Option 2 (ie. remove the comment).
 
 Then select your device in Xcode's build targets and hit run. 
