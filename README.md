@@ -77,9 +77,9 @@ You have 2 options:
 * Use the development server: Open `ios/N3xtcoderArya/AppDelegate.m` in Xcode and change `jsLocation` to the IP address  of your macbook on the local network (normally the output of `ipconfig getifaddr en1`).
 * Use an offline bundle: Open `ios/N3xtcoderArya/AppDelegate.m` in Xcode and comment out the `jsLocation` in Option 1 and enable Option 2 (ie. remove the comment).
 
-Then open Xcode, select your device in build targets (top left next to the play button) and hit run. 
+Connect your device via USB, then open Xcode, select your device in build targets (top left next to the play button) and hit run. 
 
-If you are doing this for the first time, you will need to update settings on the device to trust your itunes account as a developer. Go to settings > general > Device Management, then select your app and hit "Trust".
+If you are doing this for the first time, you will need to update settings on the iphone to trust your itunes account as a developer. On your iPhone, go to settings > general > Device Management, then select your app and hit "Trust".
 [More info](http://facebook.github.io/react-native/docs/running-on-device-ios.html)
 
 
