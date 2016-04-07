@@ -29,7 +29,7 @@ brew install --HEAD watchman
 
 Common problems can be solved here: http://facebook.github.io/react-native/docs/troubleshooting.html
 
-### Android
+## Android
 
 
 ```
@@ -53,7 +53,7 @@ exec bash
 ```
 Follow these instructions to configure the Android sdk: https://facebook.github.io/react-native/docs/android-setup.html
 
-## Running on a real device
+### Running on a real device
 Debugging your Android builds on a real device is a much better experience than through the emulator.
 
 Enable Developer options on your Android phone if you don't have the already. Go to your Settings app, navigate to `About phone` and tap seven times on `Build number`.
@@ -65,13 +65,13 @@ Plug in your device and run `react-native run-android`. Then run `adb reverse tc
 [More info](http://facebook.github.io/react-native/docs/running-on-device-android.html)
 
 
-### iOS
+## iOS
 
 Open `ios/N3xtcoderArya.xcodeproj` and hit run in Xcode.
 Open the `index.ios.js` in your editor of choice
 
 
-## Running on a real device
+### Running on a real device
 
 You have 2 options:
 * Use the development server: Open `ios/N3xtcoderArya/AppDelegate.m` in Xcode and change `jsLocation` to the IP address  of your macbook on the local network (normally the output of `ipconfig getifaddr en1`).
