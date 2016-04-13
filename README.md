@@ -91,3 +91,15 @@ Android emulator can be tricky:
 ```
 android create avd -n myavd -t 1 --abi default/x86_64
 ```
+
+## Other links
+
+[https://facebook.github.io/react-native/](https://facebook.github.io/react-native/)
+[https://github.com/jeanregisser/react-native-slider](https://github.com/jeanregisser/react-native-slider)
+[https://js.coach/react-native](https://js.coach/react-native)
+
+[https://github.com/kprimice/react-native-sensor-manager](https://github.com/kprimice/react-native-sensor-manager)
+[https://github.com/pwmckenna/react-native-motion-manager](https://github.com/pwmckenna/react-native-motion-manager)
+[https://github.com/tomauty/react-native-chart](https://github.com/tomauty/react-native-chart)
+[https://github.com/lelandrichardson/react-native-maps](https://github.com/lelandrichardson/react-native-maps)
+

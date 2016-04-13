@@ -7,7 +7,10 @@ import React, {
 
 const styles = StyleSheet.create({
   screen: {
+    backgroundColor: 'white',
+    marginTop: 60,
     flex: 1,
+    padding: 10,
   },
   welcomeText: {
     color: '#444444',

@@ -1,25 +1,29 @@
 import React, {
   Component,
   Text,
-  View,
   StyleSheet,
+  View,
 } from 'react-native';
+
 
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
   },
   welcomeText: {
-    color: '#444444',
+    backgroundColor: 'transparent',
+    color: '#ffffff',
     textAlign: 'center',
-    marginVertical: 40,
+    marginTop: 70,
+    marginBottom: 30,
+    fontSize: 20,
   },
 });
 
 class HomeScreen extends Component {
   render() {
     return <View style={styles.screen}>
-      <Text style={styles.welcomeText}>Welcome to N3xtcoder</Text>
+      <Text style={styles.welcomeText}>Welcome to N3XTCODER &amp; Arya</Text>
     </View>;
   }
 }

@@ -22,13 +22,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     height: 40,
-    backgroundColor: '#dddddd',
+    backgroundColor: 'transparent',
   },
   buttonHighlight: {
     backgroundColor: '#444444',
   },
   buttonText: {
-    color: '#444444',
+    color: '#ffffff',
   },
   buttonHighlightText: {
     fontWeight: '600',
